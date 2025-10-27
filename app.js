@@ -87,8 +87,6 @@ const inputSection = document.getElementById('inputSection');
 const loadingSkeleton = document.getElementById('loadingSkeleton');
 const themeToggle = document.getElementById('themeToggle');
 const generateBtn = document.getElementById('generateBtn');
-const testCasesToggle = document.getElementById('testCasesToggle');
-const testCasesContent = document.getElementById('testCasesContent');
 const totalDaysOffEl = document.getElementById('totalDaysOff');
 const leaveDaysUsedEl = document.getElementById('leaveDaysUsed');
 const leaveRemainingEl = document.getElementById('leaveRemaining');
@@ -116,7 +114,6 @@ resetBtn.addEventListener('click', handleReset);
 exportBtn.addEventListener('click', handleExport);
 shareBtn.addEventListener('click', handleShare);
 holidaysToggle.addEventListener('click', toggleHolidays);
-testCasesToggle.addEventListener('click', toggleTestCases);
 modalClose.addEventListener('click', closeModal);
 modalCloseBtn.addEventListener('click', closeModal);
 modalCopyBtn.addEventListener('click', copyToClipboard);
@@ -932,12 +929,6 @@ function showNotification(message, type = 'info') {
       document.body.removeChild(notification);
     }, 300);
   }, 3000);
-}
-
-// Toggle Test Cases
-function toggleTestCases() {
-  testCasesContent.classList.toggle('hidden');
-  testCasesToggle.classList.toggle('active');
 }
 
 function generatePlanText() {
