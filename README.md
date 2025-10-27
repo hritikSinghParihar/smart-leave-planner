@@ -2,7 +2,7 @@
 
 > Maximize your vacation days by planning leaves strategically with Indian national holidays
 
-**Live Demo:** [View Here](https://hritiksinghparihar.github.io/smart-leave-planner/)
+**Live Demo:** [View Here](https://smartleaves.in/)
 
 ## What is SmartLeaves?
 
@@ -28,7 +28,7 @@ SmartLeaves helps you plan your holidays efficiently. Enter your available leave
 ## Quick Start
 
 ### Run Online
-Just visit: [https://hritiksinghparihar.github.io/smart-leave-planner/](https://hritiksinghparihar.github.io/smart-leave-planner/)
+Just visit: [https://smartleaves.in/](https://smartleaves.in/)
 
 ### Run Locally
 ```bash
